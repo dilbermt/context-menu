@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom context menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- To get custom icons, using iconscout icon pack-->
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <ul class="menu">
+                <li class="item">
+                    <i class="bi bi-eye"></i>
+                    <span>preview</span>
+                </li>
+                <li class="item">
+                    <i class="bi bi-pen"></i>
+                    <span>rename</span>
+                </li>
+                <li class="item">
+                    <i class="bi bi-link"></i>
+                    <span>get link</span>
+                </li>
+                <li class="item share">
+                    <div>
+                        <i class="bi bi-share"></i>
+                        <span>share</span>
+                    </div>
+                    <i class="bi bi-arrow-right"></i>
+                        <ul class="share-menu">
+                            <li class="item">
+                                <i class="bi bi-twitter"></i>
+                                <span>Twitter</span>
+                            </li>
+                            <li class="item">
+                                <i class="bi bi-instagram"></i>
+                                <span>Instagram</span>
+                            </li>
+                            <li class="item">
+                                <i class="bi bi-whatsapp"></i>
+                                <span>Whatsapp</span>
+                            </li>
+                            <li class="item">
+                                <i class="bi bi-telegram"></i>
+                                <span>Telegram</span>
+                            </li>
+                        </ul>
+                    </li>
+                </li>
+                <li class="item">
+                    <i class="bi bi-trash"></i>
+                    <span>delete</span>
+                </li>
+            </ul>
+            <div class="settings">
+                <li class="item">
+                    <i class="bi bi-gear"></i>
+                    <span>settings</span>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
