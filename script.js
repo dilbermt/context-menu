@@ -20,3 +20,5 @@ window.addEventListener("contextmenu", e => {
     contextMenu.style.top = `${y}px`;
     contextMenu.style.visibility = "visible";
 });
+// to hide the context menu on left click
+document.addEventListener("click", () => contextMenu.style.visibility = "hidden);
